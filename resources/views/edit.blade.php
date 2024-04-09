@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layoutss.app')
 @section('title', 'Edit Task')
 @section('content')
 @include('form', ['task' => $task])
